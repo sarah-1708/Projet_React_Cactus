@@ -1,0 +1,26 @@
+.cart{
+  display:flex;
+  flex-direction:column;
+  background-color: #18C255;
+  width:15%;
+  max-height:520px;
+  padding:20px;
+  color:white;
+  border:2px solid black;
+  position:sticky;
+}
+
+.cart a{
+  text-decoration:none;
+  color:white;
+  display:flex;
+  justify-content:flex-end;
+  
+}
+.cart button{
+  width:60%;
+  height:10%;
+  margin:auto;
+  border-radius:3px;
+  border:1px solid gray;
+}

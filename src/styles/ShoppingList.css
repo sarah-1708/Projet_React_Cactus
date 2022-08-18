@@ -1,0 +1,8 @@
+.shoppingList{
+  width:85%;
+  border:1px solid black;
+  max-height:560px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}

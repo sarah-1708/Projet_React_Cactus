@@ -1,0 +1,61 @@
+.displayList{
+    display:contents;
+}
+
+.plantItem{
+  width:300px;
+  min-height:400px;
+  background-color:white;
+  border-radius:5px;
+  justify-content:center;
+  margin:2%;
+  border:1px dotted green;
+}
+
+.priceItem{
+  width:40px;
+  height:40px;
+  background-color:#18C255;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  border-top-left-radius:10px;
+  position:sticky;
+  position:relative;
+  top:10.5px;
+  left:1.5px;
+  margin-left:82.5%;
+  overflow:visible;
+  z-index:2;
+  color:white;
+  text-align:center;
+  line-height:2.5;
+}
+
+.imgPlant{
+  font-size:150px;
+  text-align:center;
+  position:relative;
+  top:-40px;
+  border:1px solid gray;
+  background-color:lightgray;
+  border-radius:10px;
+  margin: 10px;
+}
+
+.plantItem h4, .plantNeeds, button{
+  margin-left:10%;
+}
+
+.plantItem h4{
+  margin-top:-15%;
+}
+.plantItem button{
+  padding:5px;
+  width:30%;
+}
+
+.plantItem button:hover{
+  background-color:#18C255;
+  color:white;
+  border-radius:3px
+}
